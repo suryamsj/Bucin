@@ -10,7 +10,7 @@ Untuk seberasa sayang, sebenarnya tidak usah dikonfigurasi lagi kalo menurut say
 - Niat
 
 Untuk demonya, bisa [kesini](https://mainyuk.netlify.app/ "Seberapa sayang").<br>
-Untuk yang mau donate, bisa [kesini](https://saweria.co/suryamsj "Saweria").
+Untuk yang mau donasi, bisa [kesini](https://saweria.co/suryamsj "Saweria").
 
 # Download
 Untuk kalian yang tidak mempunyai text editor diatas, berikut ini link downloadnya :
