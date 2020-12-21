@@ -21,36 +21,38 @@ Kalau kalian sudah punya text editor, silahkan gunakan text editor yang biasa ka
 Pada file index.html, terdapat code seperti dibawah ini
 
 ```html
-    <div class="wadah">
-        <div class="box">
-            <button class="btn btn-1 btn-1c" id="tombolPopup">Click
-                Me!</button>
-            <h3 id="lope" class="tulisan">
-                I <img src="asset/img/love.png" /> you.
-            </h3>
-            <h3 id="potek" class="tulisan">
-                <img src="asset/img/broken.png" /> deh aku.
-            </h3>
-        </div>
+<div class="wadah">
+    <div class="box">
+        <button class="btn btn-1 btn-1c" id="tombolPopup">Click
+            Me!</button>
+        <h3 id="lope" class="tulisan">
+            I <img src="asset/img/love.png" /> you.
+        </h3>
+        <h3 id="potek" class="tulisan">
+            <img src="asset/img/broken.png" /> deh aku.
+        </h3>
     </div>
+</div>
 ```
 
 Silahkan kalian ubah dengan kata-kata kalian.
 
-Untuk code ini, akan tampil kalau yang menjawab benar-benar sayang.
+Untuk code ini, akan tampil kalau yang menjawab benar-benar **sayang**.
 
 ```html
-            <h3 id="lope" class="tulisan">
-                I <img src="asset/img/love.png" /> you.
-            </h3>
+<h3 id="lope" class="tulisan">
+    I <img src="asset/img/love.png" /> you.
+</h3>
 ```
 
-Sementara untuk code ini, akan tampil kalau yang menjawab tidak sayang.
+Sementara untuk code ini, akan tampil kalau yang menjawab tidak **sayang**.
 
 ```html
-            <h3 id="potek" class="tulisan">
-                <img src="asset/img/broken.png" /> deh aku.
-            </h3>
+<h3 id="potek" class="tulisan">
+    <img src="asset/img/broken.png" /> deh aku.
+</h3>
 ```
 
-Untuk gambarnya, silahkan ganti dengan gambar kalian. Tidak diganti juga gak masalah. Untuk file index.html cukup bagian itu saja yang diubah, sisanya tidak usah karna akan menimbulkan kerusakan pada tampilan kalau mencoba untuk mengeditnya.
+Untuk gambarnya, silahkan ganti dengan gambar kalian. Tidak diganti juga gak masalah. Untuk file **index.html** cukup bagian itu saja yang diubah, sisanya tidak usah karna akan menimbulkan kerusakan pada tampilan kalau mencoba untuk mengeditnya.
+
+Untuk mengubah kata-kata yang muncul saat popup, silahkan ke folder [asset](asset/js/main.js)
