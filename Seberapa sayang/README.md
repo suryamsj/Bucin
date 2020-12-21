@@ -15,7 +15,7 @@ Untuk yang mau donasi, bisa [kesini](https://saweria.co/suryamsj "Saweria").
 # Download
 Untuk kalian yang tidak mempunyai text editor diatas, berikut ini link downloadnya :
 - Visual Studio Code : [Visual Studio Code](https://code.visualstudio.com/download "Visual Studio Code")
-- Sublime Text : [Sublime Text](htttps](https://www.sublimetext.com/3) "Sublime text")
+- Sublime Text : [Sublime Text](https://www.sublimetext.com/3 "Sublime text")
 - Atom : [Atom](https://atom.io/ "Atom")
 - Notepad++ : [Notepad++](https://notepad-plus-plus.org/downloads/ "Notepad++")
 
