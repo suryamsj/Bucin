@@ -18,6 +18,8 @@ Untuk yang memakai hp, bisa menggunakan ini :
 Kalau kalian sudah punya text editor, silahkan gunakan text editor yang biasa kalian pakai untuk ngoding. Text editor diatas hanya rekomendasi dari saya saja.
 
 # Ubah
+
+## index.html
 Pada file index.html, terdapat code seperti dibawah ini
 
 ```html
@@ -55,4 +57,18 @@ Sementara untuk code ini, akan tampil kalau yang menjawab tidak **sayang**.
 
 Untuk gambarnya, silahkan ganti dengan gambar kalian. Tidak diganti juga gak masalah. Untuk file **index.html** cukup bagian itu saja yang diubah, sisanya tidak usah karna akan menimbulkan kerusakan pada tampilan kalau mencoba untuk mengeditnya.
 
-Untuk mengubah kata-kata yang muncul saat popup, silahkan ke folder [asset](asset/js/main.js)
+## main.js
+
+### Mengganti kata-kata
+Untuk mengubah kata-kata yang muncul saat popup, silahkan ke folder **asset > js > main.js** nanti akan ketemu sebuah code yang tak perlu dipikirkan cukup cari tulisan-tulisan seperti :
+- Halo Pacarku
+- Aku ada pertanyaan nih buat kamu
+- dll
+
+Atau cukup cari bagian yang ditulis didalam :
+- title :
+- text :
+
+### Mengganti gambar
+Saat doi menjawab tidak sayang, maka akan menampilkan gambar seperti berikut :
+![Gambar teks editor VS Code](https://www.petanikode.com/img/markdown/markdown-vscode.png)
