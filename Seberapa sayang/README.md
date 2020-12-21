@@ -9,7 +9,7 @@ Untuk seberasa sayang, sebenarnya tidak usah dikonfigurasi lagi kalo menurut say
 - Text editor (bisa sublime/atom/notepad++/visual studio code).
 - Niat
 
-Untuk demonya, bisa [kesini](https://mainyuk.netlify.app/ "Seberapa sayang").
+Untuk demonya, bisa [kesini](https://mainyuk.netlify.app/ "Seberapa sayang").<br>
 Untuk yang mau donate, bisa [kesini](https://saweria.co/suryamsj "Saweria").
 
 # Download
