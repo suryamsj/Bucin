@@ -1,7 +1,16 @@
+# Screenshot
+![Tampilan awal](https://i.imgur.com/NT6Cv29.png)
+![Popup awal](https://i.imgur.com/v01HMvx.png)
+![I Lope U](https://i.imgur.com/863kTgS.png)
+![Potek deh aku](https://i.imgur.com/WNvxUC9.png)
+
 # Penting
 Untuk seberasa sayang, sebenarnya tidak usah dikonfigurasi lagi kalo menurut saya sudah pas. Namun, jika menurut kalian gak pas atau gimana silahkan saja ganti. Berikut ini panduan untuk mengubah codenya. Pastikan kalian mempunyai :
 - Text editor (bisa sublime/atom/notepad++/visual studio code).
 - Niat
+
+Untuk demonya, bisa [kesini](https://mainyuk.netlify.app/ "Seberapa sayang")
+Untuk yang mau donate, bisa [kesini](https://saweria.co/suryamsj "Saweria")
 
 # Download
 Untuk kalian yang tidak mempunyai text editor diatas, berikut ini link downloadnya :
@@ -79,7 +88,7 @@ Cukup cari tulisan seperti ini :
 dan ganti link [https://media.giphy.com/media/kzs3OEZTltXVSUQm7G/giphy.gif](https://media.giphy.com/media/kzs3OEZTltXVSUQm7G/giphy.gif "DroidEdit") menjadi link gambar punya kalian.
 
 ### Mengganti lagu
-untuk mengganti lagu, silahkan masukkan lagu yang anda punya kedalam **asset > audio**. Setelah itu, masih didalam file **main.js** cari code seperti berikut :
+untuk mengganti lagu, silahkan masukkan lagu yang anda punya kedalam ***asset > audio***. Setelah itu, masih didalam file ***main.js*** cari code seperti berikut :
 
 ```javascript
 $.playSound('asset/audio/mine.mp3');
@@ -98,4 +107,10 @@ Untuk code ini, akan memutar lagu kalau yang menjawab tidak **sayang**.
 $.playSound('asset/audio/sakit.mp3');
 ```
 
-Untuk menggantinya, silahkan ganti sakit.mp3 dan mine.mp3 dengan file lagu kalian yang sudah dimasukkan kedalam **asset > audio**. 
+Untuk menggantinya, silahkan ganti **sakit.mp3** dan **mine.mp3** dengan file lagu kalian yang sudah dimasukkan kedalam ***asset > audio***.
+
+# Terima kasih
+Terima kasih kepada :
+- SweetAlert2 : [SweetAlert2](https://github.com/sweetalert2/sweetalert2 "SweetAlert2")
+- Confetti.js : [Confetti.js](https://github.com/mathusummut/confetti.js/ "Confetti.js")
+- Hover.css : [Hover.css](https://github.com/IanLunn/Hover "Hover.css")
