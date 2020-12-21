@@ -81,20 +81,20 @@ dan ganti link [https://media.giphy.com/media/kzs3OEZTltXVSUQm7G/giphy.gif](http
 ### Mengganti lagu
 untuk mengganti lagu, silahkan masukkan lagu yang anda punya kedalam **asset > audio**. Setelah itu, masih didalam file **main.js** cari code seperti berikut :
 
-```jquery
+```javascript
 $.playSound('asset/audio/mine.mp3');
 $.playSound('asset/audio/sakit.mp3');
 ```
 
 Untuk code ini, akan memutar lagu kalau yang menjawab benar-benar **sayang**.
 
-```jquery
+```javascript
 $.playSound('asset/audio/mine.mp3');
 ```
 
 Untuk code ini, akan memutar lagu kalau yang menjawab tidak **sayang**.
 
-```jquery
+```javascript
 $.playSound('asset/audio/sakit.mp3');
 ```
 
