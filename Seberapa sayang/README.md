@@ -64,7 +64,7 @@ Sementara untuk code ini, akan tampil kalau yang menjawab tidak **sayang**.
 </h3>
 ```
 
-Untuk gambarnya, silahkan ganti dengan gambar kalian. Untuk file gamabrnya ada di **asset > img**, Tidak diganti juga gak masalah. Untuk file **index.html** cukup bagian itu saja yang diubah, sisanya tidak usah karna akan menimbulkan kerusakan pada tampilan kalau mencoba untuk mengeditnya.
+Untuk gambarnya, silahkan ganti dengan gambar kalian. Untuk file gambarnya ada di **asset > img**, Tidak diganti juga gak masalah. Untuk file **index.html** cukup bagian itu saja yang diubah, sisanya tidak usah karna akan menimbulkan kerusakan pada tampilan kalau mencoba untuk mengeditnya.
 
 ## main.js
 
