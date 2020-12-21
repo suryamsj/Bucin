@@ -71,7 +71,7 @@ Atau cukup cari bagian yang ditulis didalam :
 
 ### Mengganti gambar
 Saat doi menjawab tidak sayang, maka akan menampilkan gambar seperti berikut :
-https://media.giphy.com/media/kzs3OEZTltXVSUQm7G/giphy.gif
+<img src="https://media.giphy.com/media/kzs3OEZTltXVSUQm7G/giphy.gif" style="postion:left" alt="Gambar hati potek"/>
 
 Cukup cari tulisan seperti ini :
 - imageUrl
