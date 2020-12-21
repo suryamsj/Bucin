@@ -71,7 +71,7 @@ Atau cukup cari bagian yang ditulis didalam :
 
 ### Mengganti gambar
 Saat doi menjawab tidak sayang, maka akan menampilkan gambar seperti berikut :
-![Gambar teks editor VS Code](https://media.giphy.com/media/kzs3OEZTltXVSUQm7G/giphy.gif)
+https://media.giphy.com/media/kzs3OEZTltXVSUQm7G/giphy.gif
 
 Cukup cari tulisan seperti ini :
 - imageUrl
