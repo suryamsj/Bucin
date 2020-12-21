@@ -55,7 +55,7 @@ Sementara untuk code ini, akan tampil kalau yang menjawab tidak **sayang**.
 </h3>
 ```
 
-Untuk gambarnya, silahkan ganti dengan gambar kalian. Tidak diganti juga gak masalah. Untuk file **index.html** cukup bagian itu saja yang diubah, sisanya tidak usah karna akan menimbulkan kerusakan pada tampilan kalau mencoba untuk mengeditnya.
+Untuk gambarnya, silahkan ganti dengan gambar kalian. Untuk file gamabrnya ada di **asset > img**, Tidak diganti juga gak masalah. Untuk file **index.html** cukup bagian itu saja yang diubah, sisanya tidak usah karna akan menimbulkan kerusakan pada tampilan kalau mencoba untuk mengeditnya.
 
 ## main.js
 
@@ -71,4 +71,9 @@ Atau cukup cari bagian yang ditulis didalam :
 
 ### Mengganti gambar
 Saat doi menjawab tidak sayang, maka akan menampilkan gambar seperti berikut :
-![Gambar teks editor VS Code](https://www.petanikode.com/img/markdown/markdown-vscode.png)
+![Gambar teks editor VS Code](https://media.giphy.com/media/kzs3OEZTltXVSUQm7G/giphy.gif)
+
+Cukup cari tulisan seperti ini :
+- imageUrl
+
+dan ganti link [https://media.giphy.com/media/kzs3OEZTltXVSUQm7G/giphy.gif](https://media.giphy.com/media/kzs3OEZTltXVSUQm7G/giphy.gif "DroidEdit") menjadi link gambar punya kalian.
