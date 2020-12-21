@@ -114,3 +114,4 @@ Terima kasih kepada :
 - SweetAlert2 : [SweetAlert2](https://github.com/sweetalert2/sweetalert2 "SweetAlert2")
 - Confetti.js : [Confetti.js](https://github.com/mathusummut/confetti.js/ "Confetti.js")
 - Hover.css : [Hover.css](https://github.com/IanLunn/Hover "Hover.css")
+- Jquery PlaySound : [Jquery Playsound](https://github.com/admsev/jquery-play-sound "Jquery PlaySound")
