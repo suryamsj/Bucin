@@ -1,5 +1,5 @@
 # Deskripsi
-Semua yang ada direpo ini adalah untuk orang BUCIN. Semua yang ada direpo ini terinspirasi dari vidio Tiktok dan dibuatlah versi gua sendiri. Silahkan kirim ke doi filenya atau kalau tidak mau repot ada beberapa yang saya uploud ke web karena sifatnya general.
+Semua yang ada direpo ini adalah untuk orang BUCIN. Semua yang ada direpo ini terinspirasi dari vidio Tiktok dan dibuatlah versi saya sendiri. Silahkan kirim ke doi filenya atau kalau tidak mau repot ada beberapa yang akan saya uploud ke web karena sifatnya general dan kalian bisa mengirimkan langsung linknya.
 
 # Overview
 - Seberapa sayang : [Seberapa Sayang](Seberapa%20sayang)
