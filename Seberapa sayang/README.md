@@ -70,8 +70,8 @@ Atau cukup cari bagian yang ditulis didalam :
 - text :
 
 ### Mengganti gambar
-Saat doi menjawab tidak sayang, maka akan menampilkan gambar seperti berikut :
-<img src="https://media.giphy.com/media/kzs3OEZTltXVSUQm7G/giphy.gif" style="postion:left" alt="Gambar hati potek"/>
+Saat doi menjawab tidak sayang, maka akan menampilkan gambar seperti berikut :<br>
+![Gambar Hati Potek](https://media.giphy.com/media/kzs3OEZTltXVSUQm7G/giphy.gif)
 
 Cukup cari tulisan seperti ini :
 - imageUrl
