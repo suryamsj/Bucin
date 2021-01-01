@@ -1,0 +1,30 @@
+@font-face {
+    /*font from https://codepen.io/Nimoi/pen/keaFn*/
+    font-family: 'Monoton';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Monoton'), local('Monoton-Regular'), url(https://themes.googleusercontent.com/static/fonts/monoton/v4/AKI-lyzyNHXByGHeOcds_w.woff) format('woff');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body {
+    background: radial-gradient(#fec215, #f8a90c);
+}
+
+.text {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    font-size: 5vw;
+    text-align: center;
+    margin-top: calc(50vh - .5em);
+    font-family: Monoton;
+    color: hsla(35, 99%, 50%, .3);
+    z-index: -1
+}
