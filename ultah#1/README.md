@@ -4,6 +4,8 @@
 # Penting
 Untuk **Ultah#1** sebenarnya tidak ada yang harus diubah, kalaupun ada cukup lagunya saja. Atau kalau mau mengubah background dll silahkan anda gunakan code editor kesayangan anda.
 
+**NOTE : UNTUK AUDIO TIDAK JALAN DI CHROME, SELAIN CHROME KEMUNGKINAN JALAN**
+
 Untuk link demonya bisa : [Kesini](https://tambahumur.netlify.app/ "Ultah V1").<br>
 Untuk yang mau donasi, bisa [kesini](https://saweria.co/suryamsj "Saweria").
 
