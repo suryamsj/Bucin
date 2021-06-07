@@ -1,0 +1,89 @@
+/* 
+Nama project : Ultah V2
+Dibuat oleh : Muhammad Surya Jayadiprana as OCHI
+Pesan : Jangan diperjual belikan, karena ini adalah project gratis
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+/* general styling */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    align-items: center;
+    background-color: #ffd54f;
+    display: flex;
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    color: #333;
+    margin: 0 auto;
+    text-align: center;
+    user-select: none;
+    z-index: 9999999999;
+}
+
+h1 {
+    letter-spacing: 0.125rem;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+li {
+    display: inline-block;
+    font-size: 1.5em;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+li span {
+    display: block;
+    font-size: 4.5rem;
+    font-weight: 700;
+}
+
+span img {
+    width: 50px;
+    height: auto;
+}
+
+.message {
+    font-size: 4rem;
+}
+
+#content {
+    display: none;
+    padding: 1rem;
+}
+
+.emoji {
+    padding: 0 0.25rem;
+}
+
+@media all and (max-width: 768px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    li {
+        font-size: 1.125rem;
+        padding: 0.75rem;
+    }
+
+    li span {
+        font-size: 3.375rem;
+    }
+}

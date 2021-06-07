@@ -1,0 +1,142 @@
+<!--
+    Nama project : Ultah V2
+    Dibuat oleh : Muhammad Surya Jayadiprana as OCHI
+    Pesan : Jangan diperjual belikan, karena ini adalah project gratis
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Selamat Ulang Tahun! Dimohon untuk menunggu, karena bakal ada kejutan tepat di tanggal 19 Agustus 2021 Jam 00:00. Semoga suka!">
+    <meta name="author" content="Muhammad Surya Jayadiprana (OCHI)">
+    <title>Selamat Ulang Tahun!</title>
+    <link rel="stylesheet" href="asset/waktu.css" id="waktu">
+    <link rel="stylesheet" href="asset/tampil.css">
+</head>
+
+<body>
+    <div class="container" id="container">
+        <h1 id="headline">Mohon Untuk Menunggu:</h1>
+        <div id="countdown">
+            <ul>
+                <li><span id="hari"></span>Hari</li>
+                <li><span id="jam"></span>Jam</li>
+                <li><span id="menit"></span>Menit</li>
+                <li><span id="detik"></span>Detik</li>
+            </ul>
+        </div>
+    </div>
+    <div class="birthday tampil" id="birthday">
+        <div class="birthday_inner">
+            <div class="birthday_inner__modal">
+                <div class="modal_image">
+                    <img src="/">
+                </div>
+                <div class="modal_content">
+                    <h1>Title</h1>
+                    <p>Content</p>
+                    <button>Ok, Gaskeun</button>
+                </div>
+            </div>
+            <div class="birthday_inner__stage stage1">
+                <div class="intro_cake">
+                    <img class="intro" src="asset/img/cake_kue.png">
+                </div>
+                <button class="start">Yuk buat kue</button>
+            </div>
+            <div class="birthday_inner__stage stage2">
+                <h1>Aduk dulu adonannya</h1>
+                <h2>Ok, sekarang mari aduk adonan yang sudah dimasukkan biar merata. Click tombol aduk untuk
+                    mengaduk
+                    adonannya</h2>
+                <div class="mix">
+                    <div class="mix_bowl">
+                        <img src="asset/img/bowl.png">
+                    </div>
+                    <div class="mix_spoon">
+                        <img src="asset/img/spoon.png">
+                    </div>
+                </div>
+                <button class="mixer">Aduk</button>
+            </div>
+            <div class="birthday_inner__stage stage3">
+                <h1>Masukin ke oven</h1>
+                <h2>Setelah diaduk merata, sekarang masukin adonannya ke oven. Cukup klik adonan dan drag adonan ke
+                    oven.</h2>
+                <div class="oven">
+                    <img src="asset/img/oven.png">
+                </div>
+                <div class="tin">
+                    <img src="asset/img/tin.png">
+                </div>
+            </div>
+            <div class="birthday_inner__stage stage4">
+                <h1>Waktunya buat kue!</h1>
+                <h2>Buat kue ulang tahun terbaik mu, dengan menambahkan beberapa layer yang tersedia. Semoga kamu
+                    suka
+                    dengan kue ulang tahun mu sendiri.</h2>
+                <div class="options">
+                    <div class="sponges inactive">
+                        <h3>Sponges</h3>
+                        <h5>
+                            <span>0</span>
+                        </h5>
+                        <div class="item">
+                            <div class="item_inner vanilla"></div>
+                            <h4>Vanilla</h4>
+                        </div>
+                        <div class="item">
+                            <div class="item_inner strawberry"></div>
+                            <h4>Pink</h4>
+                        </div>
+                        <div class="item">
+                            <div class="item_inner fruit"></div>
+                            <h4>Fruit</h4>
+                        </div>
+                    </div>
+                    <div class="fillings">
+                        <h3>Fillings/icing</h3>
+                        <h5>
+                            <span>0</span>
+                        </h5>
+                        <div class="item">
+                            <div class="item_inner jam"></div>
+                            <h4>Jam</h4>
+                        </div>
+                        <div class="item">
+                            <div class="item_inner cream"></div>
+                            <h4>Cream</h4>
+                        </div>
+                        <div class="item">
+                            <div class="item_inner choc"></div>
+                            <h4>Choc</h4>
+                        </div>
+                        <div class="item">
+                            <div class="item_inner lemon"></div>
+                            <h4>Lemon</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="cakemake">
+                    <div class="base"></div>
+                </div>
+                <div class="startagain">Mulai lagi</div>
+                <button class="add">Tambah lilin</button>
+                <button class="sa">Mulai lagi</button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- JS -->
+    <script src="asset/jquery-3.5.1.min.js"></script>
+    <script src="asset/jquery-ui.min.js"></script>
+    <script src="asset/jquery.playSound.js"></script>
+    <script src="asset/confetti.min.js"></script>
+    <script src="asset/main.js"></script>
+</body>
+
+</html>

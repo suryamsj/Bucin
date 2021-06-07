@@ -1,0 +1,606 @@
+/* 
+Nama project : Ultah V2
+Dibuat oleh : Muhammad Surya Jayadiprana as OCHI
+Pesan : Jangan diperjual belikan, karena ini adalah project gratis
+*/
+@import url(https://fonts.googleapis.com/css?family=Damion);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:800);
+
+* {
+    box-sizing: border-box;
+    font-weight: normal;
+}
+
+body {
+    font-family: 'Damion', cursive;
+    background: #fbefec;
+    background: -moz-radial-gradient(center, ellipse cover, rgba(251, 239, 236, 1) 0%, rgba(218, 180, 180, 1) 100%);
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(251, 239, 236, 1) 0%, rgba(218, 180, 180, 1) 100%);
+    background: radial-gradient(ellipse at center, rgba(251, 239, 236, 1) 0%, rgba(218, 180, 180, 1) 100%);
+    height: 100vh;
+    overflow: hidden;
+}
+
+body .birthday .add {
+    margin-top: 40px;
+    clear: both;
+    font-family: 'Damion', cursive;
+    background: transparent;
+    border: 2px solid #e77572;
+    color: #e77572;
+    font-size: 22px;
+    padding: 14px 28px;
+    border-radius: 40px;
+    transition: all 0.23s;
+    outline: none;
+    cursor: pointer;
+}
+
+body .birthday .add:hover {
+    background: #e77572;
+    color: white;
+}
+
+body .birthday_inner__modal {
+    width: 500px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    transition: all 0.4s;
+    margin: auto;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%) scale(0);
+    background: white;
+    border-radius: 20px;
+    z-index: 2;
+    padding: 40px 40px 100px 40px;
+    box-shadow: 0px 3px 10px 0px #e5b4b2;
+}
+
+body .birthday_inner__modal .modal_image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    transform: translateY(-60%);
+}
+
+body .birthday_inner__modal .modal_image img {
+    width: 100px;
+}
+
+body .birthday_inner__modal h1 {
+    color: #e77572;
+    margin: 0;
+}
+
+body .birthday_inner__modal p {
+    font-family: 'georgia';
+    font-size: 13px;
+    color: #b9918e;
+}
+
+body .birthday_inner__modal button {
+    background: #e77572;
+    color: white;
+    outline: none;
+    padding: 20px 20px 20px 20px;
+    border: none;
+    width: 100%;
+    font-size: 20px;
+    font-family: 'Damion', cursive;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0px;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+    cursor: pointer;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+body .birthday_inner__modal button:hover {
+    background: #e3605c;
+}
+
+body .birthday_inner .stage1 {
+    display: block;
+}
+
+body .birthday_inner__stage {
+    width: 500px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    top: 50%;
+    display: none;
+    transform: translateY(-50%);
+}
+
+body .birthday_inner__stage h1 {
+    color: #e77572;
+    margin: 0;
+}
+
+body .birthday_inner__stage h2 {
+    font-family: 'georgia';
+    font-size: 12px;
+    color: #b9918e;
+    line-height: 18px;
+    margin: 0;
+}
+
+body .birthday_inner__stage .mix {
+    margin: 80px 0px 10px 0px;
+    position: relative;
+}
+
+body .birthday_inner__stage .mix_spoon {
+    position: absolute;
+    top: -37px;
+    left: 200px;
+    -webkit-transform: rotate(0deg) translateX(15px) translateY(3px) rotate(0deg) scale(1);
+}
+
+body .birthday_inner__stage .mix .move {
+    animation: mix 1s 0s linear;
+}
+
+body .birthday_inner__stage img.intro {
+    width: 300px;
+    transform: scale(0);
+    animation: bounce 0.6s 1s forwards, moveup 0.6s 2s forwards;
+    position: relative;
+    top: 0px;
+}
+
+body .birthday_inner__stage .oven {
+    margin-top: 50px;
+    margin-bottom: -40px;
+}
+
+body .birthday_inner__stage .oven img {
+    width: 290px;
+    position: relative;
+    left: -10px;
+}
+
+body .birthday_inner__stage .tin img {
+    width: 90px;
+}
+
+body .birthday_inner__stage .candle {
+    position: Relative;
+    opacity: 0;
+    animation: candle 1s 1.3s forwards;
+    top: 10px;
+}
+
+body .birthday_inner__stage .candle img {
+    width: 10px;
+}
+
+body .birthday_inner__stage .startagain {
+    position: absolute;
+    right: 0;
+    top: 350px;
+    font-size: 24px;
+    color: #e77572;
+}
+
+body .birthday_inner__stage .cakemake {
+    margin-top: 230px;
+    clear: both;
+    text-align: center;
+}
+
+body .birthday_inner__stage .cakemake .base,
+body .birthday_inner__stage .cakemake .sponge {
+    height: 40px;
+    margin: 0 auto;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    margin-bottom: -10px;
+    position: relative;
+    background-image: -webkit-repeating-linear-gradient(-45deg, transparent, transparent 5px, rgba(255, 255, 255, .2) 5px, rgba(255, 255, 255, .2) 10px);
+}
+
+body .birthday_inner__stage .cakemake .base div,
+body .birthday_inner__stage .cakemake .sponge div {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    background: Red;
+    border-radius: 100px;
+    top: -5px;
+    z-index: 4;
+}
+
+body .birthday_inner__stage .cakemake .base div:nth-of-type(1),
+body .birthday_inner__stage .cakemake .sponge div:nth-of-type(1) {
+    left: 0%;
+    margin-left: 6px;
+}
+
+body .birthday_inner__stage .cakemake .base div:nth-of-type(2),
+body .birthday_inner__stage .cakemake .sponge div:nth-of-type(2) {
+    left: 20%;
+    margin-left: 6px;
+}
+
+body .birthday_inner__stage .cakemake .base div:nth-of-type(3),
+body .birthday_inner__stage .cakemake .sponge div:nth-of-type(3) {
+    left: 40%;
+    margin-left: 6px;
+}
+
+body .birthday_inner__stage .cakemake .base div:nth-of-type(4),
+body .birthday_inner__stage .cakemake .sponge div:nth-of-type(4) {
+    left: 60%;
+    margin-left: 6px;
+}
+
+body .birthday_inner__stage .cakemake .base div:nth-of-type(5),
+body .birthday_inner__stage .cakemake .sponge div:nth-of-type(5) {
+    left: 80%;
+    margin-left: 6px;
+}
+
+body .birthday_inner__stage .cakemake .base div:nth-of-type(6),
+body .birthday_inner__stage .cakemake .sponge div:nth-of-type(6) {
+    left: 100%;
+    margin-left: 6px;
+}
+
+body .birthday_inner__stage .cakemake .base div:nth-of-type(7),
+body .birthday_inner__stage .cakemake .sponge div:nth-of-type(7) {
+    left: 120%;
+    margin-left: 6px;
+}
+
+body .birthday_inner__stage .cakemake .base div:nth-of-type(8),
+body .birthday_inner__stage .cakemake .sponge div:nth-of-type(8) {
+    left: 140%;
+    margin-left: 6px;
+}
+
+body .birthday_inner__stage .cakemake .base div:nth-of-type(9),
+body .birthday_inner__stage .cakemake .sponge div:nth-of-type(9) {
+    left: 160%;
+    margin-left: 6px;
+}
+
+body .birthday_inner__stage .cakemake .base div:nth-of-type(10),
+body .birthday_inner__stage .cakemake .sponge div:nth-of-type(10) {
+    left: 180%;
+    margin-left: 6px;
+}
+
+body .birthday_inner__stage .cakemake .filling {
+    height: 10px;
+    margin: 0 auto;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    margin-bottom: -1px;
+    position: relative;
+    z-index: 1;
+    top: 9px;
+}
+
+body .birthday_inner__stage .cakemake .filling div {
+    display: block;
+    width: 12.5%;
+    float: left;
+    height: 16px;
+    background: black;
+    border-radius: 100%;
+}
+
+body .birthday_inner__stage .cakemake .base {
+    width: 200px;
+    background-color: #ffd296;
+}
+
+body .birthday_inner__stage .cakemake .sponge {
+    width: 200px;
+}
+
+body .birthday_inner__stage .cakemake .filling {
+    width: 200px;
+}
+
+body .birthday_inner__stage .cakemake .sponge-vanilla {
+    background-color: #ffd296;
+}
+
+body .birthday_inner__stage .cakemake .sponge-vanilla div {
+    background: #caa068;
+}
+
+body .birthday_inner__stage .cakemake .sponge-strawberry {
+    background-color: #ff99a3;
+}
+
+body .birthday_inner__stage .cakemake .sponge-strawberry div {
+    background: #e27983;
+}
+
+body .birthday_inner__stage .cakemake .sponge-fruit {
+    background-color: #d5ccb2;
+}
+
+body .birthday_inner__stage .cakemake .sponge-fruit div {
+    background: #a9a088;
+}
+
+body .birthday_inner__stage .cakemake .filling-jam {
+    background: #e75656;
+}
+
+body .birthday_inner__stage .cakemake .filling-jam div {
+    background: #e75656;
+}
+
+body .birthday_inner__stage .cakemake .filling-cream {
+    background: #fff;
+}
+
+body .birthday_inner__stage .cakemake .filling-cream div {
+    background: #fff;
+}
+
+body .birthday_inner__stage .cakemake .filling-choc {
+    background: #9f3d28;
+}
+
+body .birthday_inner__stage .cakemake .filling-choc div {
+    background: #9f3d28;
+}
+
+body .birthday_inner__stage .cakemake .filling-lemon {
+    background: #e8e086;
+}
+
+body .birthday_inner__stage .cakemake .filling-lemon div {
+    background: #e8e086;
+}
+
+body .birthday_inner__stage .options {
+    position: relative;
+    left: 12px;
+}
+
+body .birthday_inner__stage .options .sponges {
+    margin-right: 40px;
+}
+
+body .birthday_inner__stage .options .inactive {
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+body .birthday_inner__stage .options .sponges,
+body .birthday_inner__stage .options .fillings {
+    float: left;
+    position: relative;
+}
+
+body .birthday_inner__stage .options .sponges h3,
+body .birthday_inner__stage .options .fillings h3 {
+    text-align: left;
+    color: #a25a58;
+    font-size: 20px;
+}
+
+body .birthday_inner__stage .options .sponges h5,
+body .birthday_inner__stage .options .fillings h5 {
+    float: right;
+    margin: 0;
+    color: #e77572;
+    position: absolute;
+    top: 20px;
+    right: 14px;
+    font-size: 20px;
+}
+
+body .birthday_inner__stage .options .sponges .item,
+body .birthday_inner__stage .options .fillings .item {
+    float: left;
+    margin-right: 14px;
+}
+
+body .birthday_inner__stage .options .sponges .item_inner,
+body .birthday_inner__stage .options .fillings .item_inner {
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border: 3px solid rgba(0, 0, 0, 0.07);
+    border-radius: 8px;
+    margin-bottom: 5px;
+    transition: all 0.12s;
+}
+
+body .birthday_inner__stage .options .sponges .item_inner:hover,
+body .birthday_inner__stage .options .fillings .item_inner:hover {
+    border: 3px solid white;
+}
+
+body .birthday_inner__stage .options .sponges .item .vanilla,
+body .birthday_inner__stage .options .fillings .item .vanilla {
+    background: #ffd296;
+}
+
+body .birthday_inner__stage .options .sponges .item .strawberry,
+body .birthday_inner__stage .options .fillings .item .strawberry {
+    background: #ff99a3;
+}
+
+body .birthday_inner__stage .options .sponges .item .fruit,
+body .birthday_inner__stage .options .fillings .item .fruit {
+    background: #d5ccb2;
+}
+
+body .birthday_inner__stage .options .sponges .item .jam,
+body .birthday_inner__stage .options .fillings .item .jam {
+    background: #e75656;
+}
+
+body .birthday_inner__stage .options .sponges .item .cream,
+body .birthday_inner__stage .options .fillings .item .cream {
+    background: #fff;
+}
+
+body .birthday_inner__stage .options .sponges .item .choc,
+body .birthday_inner__stage .options .fillings .item .choc {
+    background: #9f3d28;
+}
+
+body .birthday_inner__stage .options .sponges .item .lemon,
+body .birthday_inner__stage .options .fillings .item .lemon {
+    background: #e8e086;
+}
+
+body .birthday_inner__stage .options .sponges .item h4,
+body .birthday_inner__stage .options .fillings .item h4 {
+    margin: 0;
+    color: #e77572;
+}
+
+body .birthday_inner__stage button {
+    clear: both;
+    font-family: 'Damion', cursive;
+    background: transparent;
+    border: 2px solid #e77572;
+    color: #e77572;
+    font-size: 22px;
+    padding: 14px 28px;
+    border-radius: 40px;
+    transition: all 0.23s;
+    outline: none;
+    cursor: pointer;
+}
+
+body .birthday_inner__stage button:hover {
+    background: #e77572;
+    color: white;
+}
+
+body .birthday_inner__stage .start {
+    margin-top: 30px;
+    animation: in 0.8s 2.9s forwards;
+    position: relative;
+    top: -20px;
+    opacity: 0;
+}
+
+.sa {
+    margin-top: 70px;
+    display: none;
+}
+
+.svg {
+    margin-bottom: 40px;
+}
+
+svg {
+    width: 590px;
+    height: 90px;
+    margin-bottom: -20px;
+    display: none;
+    font: 3em Open Sans, Impact;
+    text-transform: uppercase;
+}
+
+@keyframes bounce {
+    0% {
+        transform: scale(0);
+    }
+
+    25% {
+        transform: scale(1.06);
+    }
+
+    50% {
+        transform: scale(0.965);
+    }
+
+    75% {
+        transform: scale(1.02);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes in {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes moveup {
+    from {
+        top: 0;
+    }
+
+    to {
+        top: -30px;
+    }
+}
+
+@keyframes mix {
+    0% {
+        transform: translateX(0px);
+    }
+
+    50% {
+        transform: translateX(28px);
+    }
+
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+@keyframes candle {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.text path {
+    animation: dash_loader 4s 2s forwards;
+}
+
+@keyframes dash_loader {
+    to {
+        stroke-dasharray: 920;
+    }
+}
+
+path,
+polyline,
+line {
+    stroke-dasharray: 718;
+    stroke-dashoffset: 750;
+    stroke-width: 1px;
+    stroke-miterlimit: 40;
+    stroke-linejoin: round;
+    fill: none;
+    stroke: #e77572;
+    z-index: 1;
+    opacity: 1;
+}
