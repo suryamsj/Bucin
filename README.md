@@ -9,6 +9,7 @@ Semua yang ada direpo ini adalah untuk orang BUCIN. Semua yang ada direpo ini te
 # Demo
 - Seberapa sayang : [Seberapa sayang](https://mainyuk.netlify.app/ "Seberasa sayang")
 - Ultah V1 : [Ultah V1](https://tambahumur.netlify.app/ "Ultah V1")
+- Ultah V2 : [Ultah V2](https://ultah-v2.netlify.app/ "Ultah V2")
 - ComingSoon : [Cominsoon](# "Comingsoon")
 
 # Penting
