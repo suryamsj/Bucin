@@ -1,9 +1,12 @@
 # Screenshot
-![Tampilan awal](https://i.imgur.com/NT6Cv29.png)
-![Tampilan awal](https://i.imgur.com/NT6Cv29.png)
+![Tampilan Waktu](https://raw.githubusercontent.com/suryamsj/Bucin/main/gambar/Web%20capture_8-6-2021_1395_127.0.0.1.jpeg)
+![Tampilan Game Membuat Kue](https://raw.githubusercontent.com/suryamsj/Bucin/main/gambar/Web%20capture_8-6-2021_13815_.jpeg)
 
 # Penting
 Untuk **Ultah#2** ada beberapa perubahan dari versi sebelumnya. Seperti perhitungan waktu mundur dan game membuat kue sederhana.
+
+Untuk link demonya bisa : [Kesini](https://ultah-v2.netlify.app/ "Ultah V2").<br>
+Untuk yang mau donasi, bisa [kesini](https://saweria.co/suryamsj "Saweria").
 
 # Download
 Untuk kalian yang tidak mempunyai text editor diatas, berikut ini link downloadnya :
