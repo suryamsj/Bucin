@@ -10,7 +10,7 @@ Untuk seberasa sayang, sebenarnya tidak usah dikonfigurasi lagi kalo menurut say
 - Niat
 
 Untuk demonya, bisa [kesini](https://mainyuk.netlify.app/ "Seberapa sayang").<br>
-Untuk yang mau donasi, bisa [kesini](https://saweria.co/suryamsj "Saweria").
+<a href="https://trakteer.id/suryamsj/tip" target="_blank"><img id="wse-buttons-preview" src="https://cdn.trakteer.id/images/embed/trbtn-red-3.jpg" height="40" style="border: 0px; height: 40px;" alt="Trakteer Saya"></a>
 
 # Download
 Untuk kalian yang tidak mempunyai text editor diatas, berikut ini link downloadnya :
@@ -115,5 +115,3 @@ Terima kasih kepada :
 - Confetti.js : [Confetti.js](https://github.com/mathusummut/confetti.js/ "Confetti.js")
 - Hover.css : [Hover.css](https://github.com/IanLunn/Hover "Hover.css")
 - Jquery PlaySound : [Jquery Playsound](https://github.com/admsev/jquery-play-sound "Jquery PlaySound")
-
-<a href="https://trakteer.id/suryamsj/tip" target="_blank"><img id="wse-buttons-preview" src="https://cdn.trakteer.id/images/embed/trbtn-red-3.jpg" height="40" style="border: 0px; height: 40px;" alt="Trakteer Saya"></a>
