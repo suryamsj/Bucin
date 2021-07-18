@@ -115,3 +115,5 @@ Terima kasih kepada :
 - Confetti.js : [Confetti.js](https://github.com/mathusummut/confetti.js/ "Confetti.js")
 - Hover.css : [Hover.css](https://github.com/IanLunn/Hover "Hover.css")
 - Jquery PlaySound : [Jquery Playsound](https://github.com/admsev/jquery-play-sound "Jquery PlaySound")
+
+<a href="https://trakteer.id/suryamsj/tip" target="_blank"><img id="wse-buttons-preview" src="https://cdn.trakteer.id/images/embed/trbtn-red-3.jpg" height="40" style="border: 0px; height: 40px;" alt="Trakteer Saya"></a>
