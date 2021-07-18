@@ -6,7 +6,7 @@
 Untuk **Ultah#2** ada beberapa perubahan dari versi sebelumnya. Seperti perhitungan waktu mundur dan game membuat kue sederhana.
 
 Untuk link demonya bisa : [Kesini](https://ultah-v2.netlify.app/ "Ultah V2").<br>
-Untuk yang mau donasi, bisa [kesini](https://saweria.co/suryamsj "Saweria").
+<a href="https://trakteer.id/suryamsj/tip" target="_blank"><img id="wse-buttons-preview" src="https://cdn.trakteer.id/images/embed/trbtn-red-3.jpg" height="40" style="border: 0px; height: 40px;" alt="Trakteer Saya"></a>
 
 # Download
 Untuk kalian yang tidak mempunyai text editor diatas, berikut ini link downloadnya :
