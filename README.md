@@ -13,7 +13,6 @@ Semua yang ada direpo ini adalah untuk orang BUCIN. Semua yang ada direpo ini te
 - ComingSoon : [Cominsoon](# "Comingsoon")
 
 # Penting
-Untuk yang mau donasi, silahkan ke link berikut :
-- Saweria : [Saweria](https://saweria.co/suryamsj "Saweria")
+<a href="https://trakteer.id/suryamsj/tip" target="_blank"><img id="wse-buttons-preview" src="https://cdn.trakteer.id/images/embed/trbtn-red-3.jpg" height="40" style="border: 0px; height: 40px;" alt="Trakteer Saya"></a>
 
 Terima kasih
